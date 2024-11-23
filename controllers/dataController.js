@@ -5,7 +5,6 @@ const {
     tour: tourModel,
     tourItem: tourItemModel
 } = require('../models')
-const config = require('../config/config')
 
 const createTour = async (req, res) => {
     try {
